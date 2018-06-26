@@ -1,7 +1,7 @@
 
 let express = require('express');
 let app = express();
-let port = process.env.port || 8000;
+let port = process.env.PORT || 8000;
 
 app.get('/', (req, res) => {
 	res.send({
